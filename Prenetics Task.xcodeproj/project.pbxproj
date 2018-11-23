@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		037668EF21A6B0260004C779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037668EE21A6B0260004C779 /* AppDelegate.swift */; };
-		037668F121A6B0260004C779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037668F021A6B0260004C779 /* ViewController.swift */; };
+		037668F121A6B0260004C779 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037668F021A6B0260004C779 /* LoginVC.swift */; };
 		037668F421A6B0260004C779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037668F221A6B0260004C779 /* Main.storyboard */; };
 		037668F621A6B0260004C779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037668F521A6B0260004C779 /* Assets.xcassets */; };
 		037668F921A6B0260004C779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037668F721A6B0260004C779 /* LaunchScreen.storyboard */; };
+		0376690421A6B5940004C779 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0376690321A6B5940004C779 /* Customer.swift */; };
+		0376690621A6B76D0004C779 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0376690521A6B76D0004C779 /* WebServices.swift */; };
+		0376690821A6CB800004C779 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0376690721A6CB800004C779 /* InfoVC.swift */; };
+		0376691121A6D0FC0004C779 /* libHeartRateKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0376690E21A6D06B0004C779 /* libHeartRateKit.a */; };
+		0376691721A846AF0004C779 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0376691621A846AF0004C779 /* Toast.swift */; };
+		5860F23D155E30A385756F09 /* Pods_Prenetics_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85756E8FA28B3E4EC43286B /* Pods_Prenetics_Task.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0376690D21A6D06B0004C779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0376690921A6D06A0004C779 /* HeartRateKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C78DF751DFB0F5E00B15AD8;
+			remoteInfo = HeartRateKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		037668EB21A6B0260004C779 /* Prenetics Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prenetics Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037668EE21A6B0260004C779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		037668F021A6B0260004C779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		037668F021A6B0260004C779 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		037668F321A6B0260004C779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		037668F521A6B0260004C779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		037668F821A6B0260004C779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		037668FA21A6B0270004C779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0376690321A6B5940004C779 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		0376690521A6B76D0004C779 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		0376690721A6CB800004C779 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		0376690921A6D06A0004C779 /* HeartRateKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HeartRateKit.xcodeproj; path = HeartRateKit/HeartRateKit.xcodeproj; sourceTree = "<group>"; };
+		0376691621A846AF0004C779 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		C4AF9751088427267FD01125 /* Pods-Prenetics Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prenetics Task.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prenetics Task/Pods-Prenetics Task.release.xcconfig"; sourceTree = "<group>"; };
+		C85756E8FA28B3E4EC43286B /* Pods_Prenetics_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prenetics_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD14D0E77DC4C485A944BE3A /* Pods-Prenetics Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prenetics Task.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prenetics Task/Pods-Prenetics Task.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0376691121A6D0FC0004C779 /* libHeartRateKit.a in Frameworks */,
+				5860F23D155E30A385756F09 /* Pods_Prenetics_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +64,11 @@
 		037668E221A6B0250004C779 = {
 			isa = PBXGroup;
 			children = (
+				0376690921A6D06A0004C779 /* HeartRateKit.xcodeproj */,
 				037668ED21A6B0260004C779 /* Prenetics Task */,
 				037668EC21A6B0260004C779 /* Products */,
+				84E2821575895C309E4B179F /* Pods */,
+				3648E5526587923CD32813C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,75 @@
 		037668ED21A6B0260004C779 /* Prenetics Task */ = {
 			isa = PBXGroup;
 			children = (
+				0376691521A846A30004C779 /* util */,
 				037668EE21A6B0260004C779 /* AppDelegate.swift */,
-				037668F021A6B0260004C779 /* ViewController.swift */,
+				0376690221A6B5620004C779 /* view controllers */,
+				0376690121A6B55A0004C779 /* web services */,
+				0376690021A6B5540004C779 /* models */,
 				037668F221A6B0260004C779 /* Main.storyboard */,
 				037668F521A6B0260004C779 /* Assets.xcassets */,
 				037668F721A6B0260004C779 /* LaunchScreen.storyboard */,
 				037668FA21A6B0270004C779 /* Info.plist */,
 			);
 			path = "Prenetics Task";
+			sourceTree = "<group>";
+		};
+		0376690021A6B5540004C779 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0376690321A6B5940004C779 /* Customer.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0376690121A6B55A0004C779 /* web services */ = {
+			isa = PBXGroup;
+			children = (
+				0376690521A6B76D0004C779 /* WebServices.swift */,
+			);
+			path = "web services";
+			sourceTree = "<group>";
+		};
+		0376690221A6B5620004C779 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				037668F021A6B0260004C779 /* LoginVC.swift */,
+				0376690721A6CB800004C779 /* InfoVC.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
+		0376690A21A6D06A0004C779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0376690E21A6D06B0004C779 /* libHeartRateKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0376691521A846A30004C779 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0376691621A846AF0004C779 /* Toast.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		3648E5526587923CD32813C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C85756E8FA28B3E4EC43286B /* Pods_Prenetics_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E2821575895C309E4B179F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD14D0E77DC4C485A944BE3A /* Pods-Prenetics Task.debug.xcconfig */,
+				C4AF9751088427267FD01125 /* Pods-Prenetics Task.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 037668FD21A6B0270004C779 /* Build configuration list for PBXNativeTarget "Prenetics Task" */;
 			buildPhases = (
+				0CC2BA6E81CA96D37ECF0CC2 /* [CP] Check Pods Manifest.lock */,
 				037668E721A6B0260004C779 /* Sources */,
 				037668E821A6B0260004C779 /* Frameworks */,
 				037668E921A6B0260004C779 /* Resources */,
+				9A47313BFC65937934DAB2B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,12 +202,28 @@
 			mainGroup = 037668E221A6B0250004C779;
 			productRefGroup = 037668EC21A6B0260004C779 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0376690A21A6D06A0004C779 /* Products */;
+					ProjectRef = 0376690921A6D06A0004C779 /* HeartRateKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				037668EA21A6B0260004C779 /* Prenetics Task */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0376690E21A6D06B0004C779 /* libHeartRateKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHeartRateKit.a;
+			remoteRef = 0376690D21A6D06B0004C779 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		037668E921A6B0260004C779 /* Resources */ = {
@@ -130,13 +238,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC2BA6E81CA96D37ECF0CC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prenetics Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A47313BFC65937934DAB2B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Prenetics Task/Pods-Prenetics Task-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prenetics Task/Pods-Prenetics Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		037668E721A6B0260004C779 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037668F121A6B0260004C779 /* ViewController.swift in Sources */,
+				0376690421A6B5940004C779 /* Customer.swift in Sources */,
+				0376691721A846AF0004C779 /* Toast.swift in Sources */,
+				037668F121A6B0260004C779 /* LoginVC.swift in Sources */,
+				0376690621A6B76D0004C779 /* WebServices.swift in Sources */,
 				037668EF21A6B0260004C779 /* AppDelegate.swift in Sources */,
+				0376690821A6CB800004C779 /* InfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +443,7 @@
 		};
 		037668FE21A6B0270004C779 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD14D0E77DC4C485A944BE3A /* Pods-Prenetics Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Prenetics-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +462,7 @@
 		};
 		037668FF21A6B0270004C779 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AF9751088427267FD01125 /* Pods-Prenetics Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Prenetics-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
